@@ -1,0 +1,429 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style media="all" type="text/css">
+		#divOrderDetails table,
+        #divOrderAttributeDetails table{
+            border: 1px solid #F06400;
+            border-radius: 5px;
+            min-width: 800px;
+            max-width: 800px;
+        }
+
+            #divOrderDetails table thead,
+            #divOrderAttributeDetails table thead{
+                background: #F06400;
+                color: white;
+            }
+
+                #divOrderDetails table thead tr th,
+                #divOrderAttributeDetails table thead tr th{
+					background: #F06400;
+                    text-align: center;
+                    border: 1px solid #F06400;
+                    padding: 5px;
+                }
+
+            #divOrderDetails table tbody tr td,
+            #divOrderAttributeDetails table tbody tr td{
+                text-align: center;
+                border: 1px solid #eae9e9;
+                padding: 0 5px;
+				word-break: break-all;
+            }
+
+            #divOrderDetails table tbody tr:nth-child(even),
+            #divOrderAttributeDetails table tbody tr:nth-child(even){
+                background: #dee2e6;
+            }
+
+            #divOrderDetails table tbody tr:nth-child(odd),
+            #divOrderAttributeDetails table tbody tr:nth-child(odd){
+                background: #f7f1f1;
+            }
+
+            #divOrderDetails table tbody tr:nth-last-child(1) td:nth-last-child(1),
+            #divOrderAttributeDetails table tbody tr:nth-last-child(1) td:nth-last-child(1){
+                border-bottom-right-radius: 5px;
+            }
+
+            #divOrderDetails table tbody tr:nth-last-child(1) td:nth-child(1),
+            #divOrderAttributeDetails table tbody tr:nth-last-child(1) td:nth-child(1){
+                border-bottom-left-radius: 5px;
+            }
+			
+			#divOrderAddressPanelStores table {
+            border: 4px solid #F06400;
+            border-radius: 5px;
+            min-width: 800px;
+            max-width: 800px;
+            border-collapse: collapse;
+        }
+
+            #divOrderAddressPanelStores table thead {
+                background: #F06400;
+                color: white;
+            }
+                 #divOrderAddressPanelStores table thead tr th {
+					background: #F06400;
+                    text-align: center;
+                    border: 1px solid white;
+                    padding: 3px;
+					word-break: break-all;
+					width: initial;
+                }
+
+                #divOrderAddressPanelStores table thead tr:last-child th:last-child {
+                    border-right: 4px solid #F06400;
+                }
+
+            #divOrderAddressPanelStores table tbody tr td {
+                text-align: center;
+                border: 1px solid #eae9e9;
+                padding: 2px;
+				word-break: break-all;
+            }
+			#divOrderAddressPanelStores table tbody tr:nth-child(4n+4) td{
+                border-bottom: none;
+            }
+			#divOrderAddressPanelStores table tbody tr:nth-child(4n+1) td {
+                border-top: none;
+            }
+    </style>
+</head>
+<body>
+    <table style="width: 800px;" cellpadding="5" cellspacing="5">
+        <tr><td>Hello Ryan Jeffs,<br></td></tr>
+        <tr><td>We appreciate your business, please find below, the summary of your recent order.<br></td></tr>
+        <tr><td><strong>Order Info:</strong></td></tr>
+        <tr>
+            <td>
+                <table style="background: #02b1d5;width: 800px; border:grey;border-radius: 5px;" cellpadding="2" cellspacing="2">
+                    <tr>
+                        <td>
+                            <table style="width: 440px;border-right: solid 1px grey;">
+                                <tr>
+                                    <td>Order Code</td>
+
+                                    <td>:&nbsp;SNAPT20326</td>
+                                </tr>
+                                <tr>
+                                    <td>Account</td>
+
+                                    <td>:&nbsp;313281</td>
+                                </tr>
+                                <tr>
+                                    <td>CSR</td>
+
+                                    <td>:&nbsp;Pearson, Janice</td>
+                                </tr>
+                                <tr>
+                                    <td>Order Date</td>
+
+                                    <td>:&nbsp;05/14/2018</td>
+                                </tr>
+								<tr>
+                                    <td>Earliest Ship Date</td>
+
+                                    <td>:&nbsp;04/06/2018</td>
+                                </tr>
+                                <tr>
+                                    <td>Order Cost</td>
+
+                                    <td>:&nbsp;$10.22</td>
+                                </tr>
+
+                                <tr style="display:;">
+                                    <td>Folding Charge</td>
+
+                                    <td>:&nbsp;$100000.00</td>
+                                </tr>
+
+                                <tr style="display:none;">
+                                    <td>Freight Charge</td>
+
+                                    <td>:&nbsp;$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Plate Charge</td>
+
+                                    <td>:&nbsp;$345.00</td>
+                                </tr>
+
+                                <tr style="display:none;">
+                                    <td>Early Bird Discount</td>
+
+                                    <td>:&nbsp;$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Total Cost*</td>
+
+                                    <td>:&nbsp;$100355.22</td>
+                                </tr>
+                                <tr>
+                                    <td>Company</td>
+
+                                    <td>:&nbsp;JTS Direct-jts</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Items</td>
+
+                                    <td>:&nbsp;2</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">*Additional charges may be added to your invoice.</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table style="width: 340px;text-align: center;">
+                                <tr><td><i>Placed For</i></td></tr>
+
+                                <tr><td>User</td></tr>
+                                <tr><td><a href="mailto:user@jtsdirect.com" style="text-decoration: none;color: inherit;">user@jtsdirect.com</a></td></tr>
+
+                                <tr><td>262-369-9500</td></tr>
+                                <tr rowspan="2"><td>&nbsp;</td></tr>
+                            </table>
+                        </td>
+                </table>
+            </td>
+        </tr>
+        <tr><td><strong>Order Details:</strong></td></tr>
+        <tr><td><div id="divOrderDetails"><table cellpadding='0' cellspacing='0'><thead><tr><th>Item Code</th><th>Version Code</th><th>AdItem</th><th>Front</th><th>Back</th><th>EarliestShipDate</th><th>Notes</th></tr></thead><tbody><tr><td>20372</td><td>20372-3281015</td><td>BOUNCEBACK</td><td>DEFAULT_ITEM<br>54665_BB_5_8_CPN_C516</td><td>test_item_number<br>test</td><td>04/06/2018</td><td></td></tr><tr><td colspan='7'><hr size='2' color='grey'></td></tr><tr><td>20373</td><td>20373-3281013</td><td>BOUNCEBACK</td><td>DEFAULT_ITEM<br>54662_BB_5_8_NOCPN_C516_description rename_54662_BB_5_8_NOCPN _C516_long</td><td>test_item_number<br>test</td><td>04/09/2018</td><td></td></tr></tbody></table></div></td></tr>
+        <tr><td><div id="divOrderAttributeDetails"><strong>Attribute Details:</strong><br><br><table cellpadding='0' cellspacing='0'><thead><tr><th>Item Code</th><th>Attribute Name</th><th>AttributeDescription</th><th>Value</th><th>Side</th></tr></thead><tbody><tr><td>20372</td><td>Menu Dips</td><td>Menu Dips</td><td>Ranch - Buffalo Ranch -</td><td>Back</td></tr><tr><td>20372</td><td>addresspanel</td><td>addresspanel</td><td>015</td><td>Back</td></tr><tr><td>20372</td><td>HNR Classic </td><td>HNR Classic - Topping Options</td><td>Large Pepperoni</td><td>Front</td></tr><tr><td>20372</td><td>Menu Dips</td><td>Menu Dips</td><td>Ranch - Buffalo Ranch -</td><td>Front</td></tr><tr><td colspan='5'><hr size='2' color='grey'></td></tr><tr><td>20373</td><td>Menu Dips</td><td>Menu Dips</td><td>Ranch - Buffalo Ranch -</td><td>Back</td></tr><tr><td>20373</td><td>addresspanel</td><td>addresspanel</td><td>013</td><td>Back</td></tr></tbody></table></div></td></tr>
+        <tr><td><div id="divOrderAddressPanelStores"><strong>Address Panel Stores:</strong><br><br>
+		<table cellpadding="0" cellspacing="0" width="500px">
+		<thead>
+		<tr>
+		<th colspan="2" >Item Code</th>
+		<th colspan="2" >Product Name</th>
+		<th colspan="2" >Store Name</th>
+		<th colspan="2" >Address1</th>
+		<th colspan="2" >Address2</th>
+		<th colspan="2" >City</th>
+		<th colspan="2" >State</th>
+		<th colspan="2" >Zip</th>
+		<th colspan="2" >Phone</th>
+		<th colspan="2" >Store Number</th>
+		<th colspan="2" >Sort</th>
+		</tr>
+		<tr>
+		<th colspan="2" >Mobile Orders</th>
+		<th colspan="2" >Is Next Ad</th>
+		<th colspan="2" >Visa</th>
+		<th colspan="2" >Master Card</th>
+		<th colspan="2" >Amex</th>
+		<th colspan="2" >Discover</th>
+		<th colspan="2" >LC Gift Card</th>
+		<th colspan="2" >Map</th>
+		<th colspan="2" >Locator</th>
+		<th colspan="2" >Hours</th>
+		<th colspan="2" >Other Info</th>
+		</tr>
+		</thead>
+		<tbody>
+		<repeater-addresspanels>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		<tr>
+		<td colspan="2" >20372</td>
+		<td colspan="2" >new_address</td>
+		<td colspan="2" >001</td>
+		<td colspan="2" >132 BROADWAY ST NORTH</td>
+		<td colspan="2" >IN THE BROADWAY SQUARE CENTER</td>
+		<td colspan="2" >MENOMONIE</td>
+		<td colspan="2" >Wisconsin</td>
+		<td colspan="2" >53029</td>
+		<td colspan="2" >715-233-2001</td>
+		<td colspan="2" >3423</td>
+		<td colspan="2" >0</td></tr>
+		<tr>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >dzfd</td>
+		<td colspan="2" >sdfsd</td>
+		<td colspan="2" >sdfsd</td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		
+		<tr><td colspan="22">&nbsp;</td></tr>
+		<tr>
+		<td colspan="2" >20372</td>
+		<td colspan="2" >new_address</td>
+		<td colspan="2" >002</td>
+		<td colspan="2" >601 E. LAKESHORE</td>
+		<td colspan="2" >address2</td>
+		<td colspan="2" >ASHLAND</td>
+		<td colspan="2" >Tennessee</td>
+		<td colspan="2" ></td>
+		<td colspan="2" >715-682-5511</td>
+		<td colspan="2" >123</td>
+		<td colspan="2" >23</td></tr>
+		<tr>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >locator</td>
+		<td colspan="2" >hours</td>
+		<td colspan="2" >otherinfo</td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		
+		<tr><td colspan="22">&nbsp;</td></tr>
+		<tr>
+		<td colspan="2" >20372</td>
+		<td colspan="2" >new_address</td>
+		<td colspan="2" >001</td>
+		<td colspan="2" >2905 MALL DRIVE</td>
+		<td colspan="2" >BY FESTIVAL FOODS</td>
+		<td colspan="2" >SOUTHPOINT CENTER</td>
+		<td colspan="2" >Wisconsin</td>
+		<td colspan="2" ></td>
+		<td colspan="2" >715-830-4040</td>
+		<td colspan="2" ></td>
+		<td colspan="2" >0</td></tr>
+		<tr>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" ></td>
+		<td colspan="2" ></td>
+		<td colspan="2" ></td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		
+		<tr><td colspan="22">&nbsp;</td></tr>
+		<tr>
+		<td colspan="2" >20372</td>
+		<td colspan="2" >new_address</td>
+		<td colspan="2" >001</td>
+		<td colspan="2" >8 WEST MADISON ST</td>
+		<td colspan="2" >NEXT TO FAMILY VIDEO</td>
+		<td colspan="2" >DOWNTOWN EAU CLAIRE</td>
+		<td colspan="2" >Wisconsin</td>
+		<td colspan="2" ></td>
+		<td colspan="2" >715-835-7772</td>
+		<td colspan="2" ></td>
+		<td colspan="2" >0</td></tr>
+		<tr>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" ></td>
+		<td colspan="2" ></td>
+		<td colspan="2" ></td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		
+		<tr><td colspan="22"><hr size='2' color='grey'></td></tr>
+		<tr>
+		<td colspan="2" >20373</td>
+		<td colspan="2" >new</td>
+		<td colspan="2" >001</td>
+		<td colspan="2" >132 BROADWAY ST NORTH</td>
+		<td colspan="2" >IN THE BROADWAY SQUARE CENTER</td>
+		<td colspan="2" >MENOMONIE</td>
+		<td colspan="2" >Wisconsin</td>
+		<td colspan="2" >53029</td>
+		<td colspan="2" >715-233-2001</td>
+		<td colspan="2" >3423</td>
+		<td colspan="2" >0</td></tr>
+		<tr>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >dzfd</td>
+		<td colspan="2" >sdfsd</td>
+		<td colspan="2" >sdfsd</td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		
+		<tr><td colspan="22">&nbsp;</td></tr>
+		<tr>
+		<td colspan="2" >20373</td>
+		<td colspan="2" >new</td>
+		<td colspan="2" >test</td>
+		<td colspan="2" >test_address</td>
+		<td colspan="2" >zxczxcz</td>
+		<td colspan="2" >test_city</td>
+		<td colspan="2" >Alaska</td>
+		<td colspan="2" >53029</td>
+		<td colspan="2" >222-222-3333</td>
+		<td colspan="2" >23</td>
+		<td colspan="2" >0</td></tr>
+		<tr>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >NO</td>
+		<td colspan="2" >dsgdsgdgds</td>
+		<td colspan="2" >sdsdfs</td>
+		<td colspan="2" >dfsdfsd</td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		
+		<tr><td colspan="22">&nbsp;</td></tr>
+		<tr>
+		<td colspan="2" >20373</td>
+		<td colspan="2" >new</td>
+		<td colspan="2" >test_store</td>
+		<td colspan="2" >addrss_updated_edit</td>
+		<td colspan="2" ></td>
+		<td colspan="2" >city_updated</td>
+		<td colspan="2" >Alabama</td>
+		<td colspan="2" >53029</td>
+		<td colspan="2" >223-444-3345</td>
+		<td colspan="2" >432</td>
+		<td colspan="2" >0</td></tr>
+		<tr>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" >YES</td>
+		<td colspan="2" ></td>
+		<td colspan="2" ></td>
+		<td colspan="2" ></td>
+		</tr>
+		<tr><td colspan="22">&nbsp;</td></tr>
+		</repeater-addresspanels>
+		</tbody>
+		</table></div></td></tr>
+        <tr><td>Thanks,<br><b>Printworks/JTS Direct</b></td></tr>
+    </table>
+</body>
+</html>
